@@ -118,7 +118,6 @@ Deploy on cloud (Streamlit Cloud / Render)
 👩‍💻 Author
 
 Sneha Kumari
-🎓 Minor in AI, IIT Ropar
 💼 Aspiring AI Engineer & Developer
 🔗 [LinkedIn](https://www.linkedin.com/in/sneha0511/)
 

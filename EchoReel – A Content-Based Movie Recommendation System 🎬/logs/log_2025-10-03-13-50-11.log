@@ -1,0 +1,47 @@
+[2025-10-03 13:50:35,459] root - INFO - Model Recommendation Config: ModelRecommendationConfig(serialized_objects_file_path='movies_recommender_artifacts\\serialized_objects\\movie_list.pkl', trained_model_path='movies_recommender_artifacts\\trained_model\\similarity.pkl', poster_api='https://api.themoviedb.org/3/movie/{}?api_key=8265bd1679663a7ea12ac168da84d2e8&language=en-US')
+[2025-10-03 14:00:36,389] root - INFO - Model Recommendation Config: ModelRecommendationConfig(serialized_objects_file_path='movies_recommender_artifacts\\serialized_objects\\movie_list.pkl', trained_model_path='movies_recommender_artifacts\\trained_model\\similarity.pkl', poster_api='https://api.themoviedb.org/3/movie/{}?api_key=8265bd1679663a7ea12ac168da84d2e8&language=en-US')
+[2025-10-03 14:13:22,782] root - INFO - Model Recommendation Config: ModelRecommendationConfig(serialized_objects_file_path='movies_recommender_artifacts\\serialized_objects\\movie_list.pkl', trained_model_path='movies_recommender_artifacts\\trained_model\\similarity.pkl', poster_api='https://api.themoviedb.org/3/movie/{}?api_key=8265bd1679663a7ea12ac168da84d2e8&language=en-US')
+[2025-10-03 14:15:43,503] root - INFO - Model Recommendation Config: ModelRecommendationConfig(serialized_objects_file_path='movies_recommender_artifacts\\serialized_objects\\movie_list.pkl', trained_model_path='movies_recommender_artifacts\\trained_model\\similarity.pkl', poster_api='https://api.themoviedb.org/3/movie/{}?api_key=8265bd1679663a7ea12ac168da84d2e8&language=en-US')
+[2025-10-03 14:16:12,928] root - INFO - Model Recommendation Config: ModelRecommendationConfig(serialized_objects_file_path='movies_recommender_artifacts\\serialized_objects\\movie_list.pkl', trained_model_path='movies_recommender_artifacts\\trained_model\\similarity.pkl', poster_api='https://api.themoviedb.org/3/movie/{}?api_key=8265bd1679663a7ea12ac168da84d2e8&language=en-US')
+[2025-10-03 14:16:15,353] root - INFO - Model Recommendation Config: ModelRecommendationConfig(serialized_objects_file_path='movies_recommender_artifacts\\serialized_objects\\movie_list.pkl', trained_model_path='movies_recommender_artifacts\\trained_model\\similarity.pkl', poster_api='https://api.themoviedb.org/3/movie/{}?api_key=8265bd1679663a7ea12ac168da84d2e8&language=en-US')
+[2025-10-03 14:16:15,556] root - INFO - ====================Data Ingestion log started.==================== 
+[2025-10-03 14:16:15,556] root - INFO - Data Ingestion Config: DatasetConfig(dataset_download_url='https://github.com/entbappy/Branching-tutorial/raw/master/tmdb_5000_credits.zip', raw_data_dir='movies_recommender_artifacts\\dataset\\raw_data', ingested_dir='movies_recommender_artifacts\\dataset\\ingested_data')
+[2025-10-03 14:16:15,557] root - INFO - Data Validation Config: DataValidationConfig(clean_data_dir='movies_recommender_artifacts\\dataset\\clean_data', credit_csv_file='movies_recommender_artifacts\\dataset\\ingested_data\\tmdb_5000_credits.csv', movies_csv_file='movies_recommender_artifacts\\dataset\\ingested_data\\tmdb_5000_movies.csv', serialized_objects_dir='movies_recommender_artifacts\\serialized_objects')
+[2025-10-03 14:16:15,557] root - INFO - Data Transformation Config: DataTransformationConfig(clean_data_file_path='movies_recommender_artifacts\\dataset\\clean_data\\clean_data.csv', transformed_data_dir='movies_recommender_artifacts\\dataset\\transformed_data')
+[2025-10-03 14:16:15,557] root - INFO - Model Trainer Config: ModelTrainerConfig(transformed_data_file_dir='movies_recommender_artifacts\\dataset\\transformed_data\\transformed_data.npy', trained_model_dir='movies_recommender_artifacts\\trained_model', trained_model_name='similarity.pkl')
+[2025-10-03 14:16:15,561] root - INFO - Downloading data from https://github.com/entbappy/Branching-tutorial/raw/master/tmdb_5000_credits.zip into file movies_recommender_artifacts\dataset\raw_data\tmdb_5000_credits.zip
+[2025-10-03 14:16:18,214] root - INFO - Model Recommendation Config: ModelRecommendationConfig(serialized_objects_file_path='movies_recommender_artifacts\\serialized_objects\\movie_list.pkl', trained_model_path='movies_recommender_artifacts\\trained_model\\similarity.pkl', poster_api='https://api.themoviedb.org/3/movie/{}?api_key=8265bd1679663a7ea12ac168da84d2e8&language=en-US')
+[2025-10-03 14:16:18,581] urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.themoviedb.org:443
+[2025-10-03 14:16:19,754] root - INFO - Model Recommendation Config: ModelRecommendationConfig(serialized_objects_file_path='movies_recommender_artifacts\\serialized_objects\\movie_list.pkl', trained_model_path='movies_recommender_artifacts\\trained_model\\similarity.pkl', poster_api='https://api.themoviedb.org/3/movie/{}?api_key=8265bd1679663a7ea12ac168da84d2e8&language=en-US')
+[2025-10-03 14:16:20,083] urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.themoviedb.org:443
+[2025-10-03 14:16:20,635] root - INFO - Downloaded data from https://github.com/entbappy/Branching-tutorial/raw/master/tmdb_5000_credits.zip into file movies_recommender_artifacts\dataset\raw_data\tmdb_5000_credits.zip
+[2025-10-03 14:16:21,067] root - INFO - Extracting zip file: movies_recommender_artifacts\dataset\raw_data\tmdb_5000_credits.zip into dir: movies_recommender_artifacts\dataset\ingested_data
+[2025-10-03 14:16:21,068] root - INFO - ====================Data Ingestion log completed.==================== 
+
+
+[2025-10-03 14:16:21,068] root - INFO - ====================Data Validation log started.==================== 
+[2025-10-03 14:16:22,188] root - INFO -  Shape of movies data file: (4803, 20)
+[2025-10-03 14:16:22,188] root - INFO -  Shape of credits data file: (4803, 4)
+[2025-10-03 14:16:23,529] root - INFO - Model Recommendation Config: ModelRecommendationConfig(serialized_objects_file_path='movies_recommender_artifacts\\serialized_objects\\movie_list.pkl', trained_model_path='movies_recommender_artifacts\\trained_model\\similarity.pkl', poster_api='https://api.themoviedb.org/3/movie/{}?api_key=8265bd1679663a7ea12ac168da84d2e8&language=en-US')
+[2025-10-03 14:16:24,575] root - INFO - Model Recommendation Config: ModelRecommendationConfig(serialized_objects_file_path='movies_recommender_artifacts\\serialized_objects\\movie_list.pkl', trained_model_path='movies_recommender_artifacts\\trained_model\\similarity.pkl', poster_api='https://api.themoviedb.org/3/movie/{}?api_key=8265bd1679663a7ea12ac168da84d2e8&language=en-US')
+[2025-10-03 14:16:26,178] urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.themoviedb.org:443
+[2025-10-03 14:16:27,899] root - INFO - Model Recommendation Config: ModelRecommendationConfig(serialized_objects_file_path='movies_recommender_artifacts\\serialized_objects\\movie_list.pkl', trained_model_path='movies_recommender_artifacts\\trained_model\\similarity.pkl', poster_api='https://api.themoviedb.org/3/movie/{}?api_key=8265bd1679663a7ea12ac168da84d2e8&language=en-US')
+[2025-10-03 14:16:29,532] urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.themoviedb.org:443
+[2025-10-03 14:16:47,973] root - INFO -  Shape of final data: (4806, 3)
+[2025-10-03 14:16:48,162] root - INFO - Saved cleaned data to movies_recommender_artifacts\dataset\clean_data
+[2025-10-03 14:16:48,223] root - INFO - Saved serialization object to movies_recommender_artifacts\serialized_objects
+[2025-10-03 14:16:48,256] root - INFO - ====================Data Validation log completed.==================== 
+
+
+[2025-10-03 14:16:48,257] root - INFO - ====================Data Transformation log started.==================== 
+[2025-10-03 14:16:49,128] root - INFO -  Shape of the final vector: (4806, 5000)
+[2025-10-03 14:16:49,663] root - INFO - Saving final vector as numpy array to movies_recommender_artifacts\dataset\transformed_data
+[2025-10-03 14:16:49,698] root - INFO - ====================Data Transformation log completed.==================== 
+
+
+[2025-10-03 14:16:49,698] root - INFO - ====================Model Trainer log started.==================== 
+[2025-10-03 14:16:51,847] root - INFO -  Similarity vector shape: (4806, 4806)
+[2025-10-03 14:16:52,452] root - INFO - Saving final similarity model to movies_recommender_artifacts\trained_model\similarity.pkl
+[2025-10-03 14:16:52,540] root - INFO - ====================Model Trainer log completed.==================== 
+
+
